@@ -14,6 +14,7 @@ import java.nio.file.Path;
 @Controller
 public class UploadController {
 
+//    Menentukan path yang akan dituju untuk menaruh file yang diunggah
     private static final String UPLOADED_PATH = "D:\\SEM4\\upload";
     @GetMapping("/")
     public String index(){
